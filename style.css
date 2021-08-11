@@ -136,21 +136,29 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
+
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc a:hover .icon-xl {
     color: rgba(255, 255, 255, 1);
+}
+
+.navbar-header img {
+    height: 45px;
+    padding-left: 15px;
+} 
+
+.nav li:hover {
+    text-decoration: underline;
+}
+
+.col-sm-12 img {
+    width: 100px;
+}
+
+.texte-center p {
+    font-size: 50px;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -674,10 +682,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
