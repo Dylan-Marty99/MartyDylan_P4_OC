@@ -1,24 +1,23 @@
 <!doctype html>
-<html lang="Default">	<!--modif langue-->
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">		<!--ajout description/mot clé ?-->
-    <meta name="description" content="">	
+    <meta name="description" content="Contacter la chouette agence pour un devis rapide et une expertise garantie. Notre équipe de designers s'occupera de réaliser le site de vos rêves.">	
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>		<!--javascript min-->
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>		<!--javascript min-->
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>	<!--titre mot clé/entreprise-->
+    <title>Contact - La chouette agence</title>	
 
     
 <!-- Analytics -->
@@ -34,21 +33,14 @@
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">	<!--supprimer div/button-->
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo la chouette agence"/></a>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>				<!--placer correctement-->
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>	<!--supprimer-->
-					<li>
-						<a href="page2.html">page2 &gt;</a>	<!--modif nom-->
+						<a href="contact.html">Contact</a>	<!--modif nom-->
 					</li>
 				</ul>
 			</div>
@@ -60,12 +52,12 @@
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
-		<div class="row">				<!--supprimer all + mettre input ici-->
+		<div class="row">				
 			<div class="col-sm-12">	
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text">
 					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				</h1>			<!--Couleur + position-->
+				<p class="text-center mg-lg tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -85,43 +77,34 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" placeholder="Ex: Jean" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" placeholder="Ex: jean12@exemple.com" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" id="input_504" placeholder="Ex: Internet" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Ex: Je souhaiterais..." required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 				</form>
 			</div>
-			<div class="col-sm-6">
-				<p>		<!--taille texte-->
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
 
 
 <!-- Footer - bloc-8 -->
@@ -129,30 +112,32 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
+				<div class="col-sm-6">
+					<p class="white">		<!--taille texte-->
+						contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					</p>
+				</div>
 				<div class="row row-no-gutters social">
-					<div class="col-sm-3">		<!--modif couleur icons-->
+					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="twitter-lachouetteagence.com"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="facebook-lachouetteagence.com"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="dribbble-lachouetteagence.com"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="instagram-lachouetteagence.com"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
-					</div>
+					</div>						
 				</div>
 			</div>
 		</div>

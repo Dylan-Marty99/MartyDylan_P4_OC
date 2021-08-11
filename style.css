@@ -300,26 +300,12 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-brand {
-    height: auto;
-    padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
-}
-
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+    height: 50px;
+    padding-bottom: 10px;
 }
 
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
-.nav-center .navbar-brand img {
+.nav-center {
     margin: 0;
 }
 
