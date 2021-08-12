@@ -235,8 +235,16 @@ h1 {
   padding-top: 10px;
 }
 
-.footer_social_medias-icons a:hover {
+.footer_social_medias a:hover {
     color: rgb(218, 216, 216);
+}
+
+.title_contact {
+    padding: 25px 0;
+}
+
+.footer_contact {
+    color: white;
 }
 
 .d-bloc .btn-wire,
