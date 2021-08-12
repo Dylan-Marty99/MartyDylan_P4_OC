@@ -45,11 +45,11 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 20px;
 }
 
 .bloc-sm {
@@ -161,6 +161,48 @@ a:hover {
     font-size: 50px;
 }
 
+.title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #F3976C;
+    width: 400px;
+    height: 90px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 8px;
+}
+
+h1 {
+    padding-top: 8px;
+    font-size: 2rem;
+}
+
+.row h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.citation_name {
+    font-weight: bold;
+}
+
+.text_contact {
+    color: white;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.text_contact:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.text_contact-link {
+    color: white;
+    padding-left: 28%;
+}
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -199,11 +241,6 @@ a:hover {
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
 }
 
 .d-bloc .panel button:hover,
@@ -635,17 +672,13 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+
 }
 
 .container {
@@ -712,14 +745,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -735,7 +760,7 @@ h4 {
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .avatar {
