@@ -99,10 +99,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -150,6 +146,10 @@ a:hover {
 } 
 
 .nav li:hover {
+    text-decoration: underline;
+}
+
+li a:hover {
     text-decoration: underline;
 }
 
@@ -203,8 +203,40 @@ h1 {
     padding-left: 28%;
 }
 
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+#bloc-5-cta {
+    height: 300px;
+}
+
+.title-bottom {
+    margin: 0 auto;
+    background-color: #F3976C;
+    width: 450px;
+    height: 70px;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #F3976C;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_social_medias p {
+    font-size: 1.6rem;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer_social_medias-icons {
+  padding-top: 10px;
+}
+
+.footer_social_medias-icons a:hover {
+    color: rgb(218, 216, 216);
 }
 
 .d-bloc .btn-wire,
