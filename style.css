@@ -933,12 +933,16 @@ h3 {
         overflow-x: hidden;
         position: relative;
     }
-    header ul {
+    .flex {
         display: flex;
         flex-direction: row;
     }
+    header ul {
+        height: 62px;
+    }
     header li {
         border-right: solid rgb(141, 140, 140) 1px;
+        border-top: 1px solid rgba(0, 0, 0, .2);
     }
     header a {
         text-align: center;
@@ -1004,6 +1008,16 @@ h3 {
     .col-sm-3 {
         padding: 0 30px;
     }
+    .footer_contact {
+        text-align: center;
+        padding-top: 30px;
+    }
+    form {
+        font-size: 1.5rem;
+    }
+    .navbar-brand img {
+        padding-bottom: 15px;
+    }
     h1,
     h2,
     h3,
@@ -1014,7 +1028,6 @@ h3 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -1064,7 +1077,6 @@ h3 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
