@@ -95,10 +95,6 @@ a:hover {
     background-size: 280px 280px;
 }
 
-.b-parallax {
-    background-attachment: fixed;
-}
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -814,7 +810,10 @@ h3 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+}
+
+.bold-link:hover {
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -903,24 +902,9 @@ h3 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
     }
     .page-container,
     #hero-bloc {
@@ -949,19 +933,84 @@ h3 {
         overflow-x: hidden;
         position: relative;
     }
+    header ul {
+        display: flex;
+        flex-direction: row;
+    }
+    header li {
+        border-right: solid rgb(141, 140, 140) 1px;
+    }
+    header a {
+        text-align: center;
+    }
+    .title {
+        width: 360px;
+    }
+    section a {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .row {
+        margin: 0 auto;
+    }
+    .row h2 {
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.65rem;
+    }
+    .text_contact:nth-child(1) {
+        font-size: 2rem;
+    }
+    .text_contact-link {
+        display: flex;
+        justify-content: center;
+        font-size: 1.8rem;
+        padding: 0;
+    }
+    .portfolio-thumb {
+       width: 320px;
+       margin: 30px auto;
+    }
+    aside .row h2 {
+        font-weight: initial;
+        font-size: 2.1rem;
+    }
+    .title-bottom {
+        width: 390px;
+        height: 63px;
+        margin-top: 30px;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer_partenaires {
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 1.5rem;
+    }
+    .footer_social_medias p {
+        font-size: 2rem;
+    }
+    .footer_social_medias-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .col-sm-3 {
+        padding: 0 30px;
+    }
     h1,
     h2,
     h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }
-    .b-parallax {
-        background-attachment: scroll;
     }
     .navbar .nav {
         padding-top: 0;
@@ -982,8 +1031,6 @@ h3 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
         width: 100%;
     }
     .nav > li:hover {
