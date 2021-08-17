@@ -30,7 +30,6 @@ a:hover {
 .bloc {
     width: 100%;
     clear: both;
-    background: 50% 50% no-repeat;
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -74,10 +73,6 @@ a:hover {
 
 .bg-repeat {
     background: repeat;
-}
-
-.bg-t-edge {
-    background: top no-repeat;
 }
 
 .bloc-bg-texture::before {
